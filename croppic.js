@@ -321,7 +321,7 @@
             }
 
             if (response.status == 'error') {
-			    alert(response.message);
+// 			    alert(response.message);
                 if (that.options.onError) that.options.onError.call(that,response.message);
 				that.hideLoader();
 				setTimeout( function(){ that.reset(); },2000)	
